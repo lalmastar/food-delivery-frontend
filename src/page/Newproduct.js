@@ -3,7 +3,8 @@ import { toast } from 'react-hot-toast'
 import {BsCloudUpload} from "react-icons/bs"
 import { ImagetoBase64 } from '../utility/ImagetoBase64'
 
-const baseURL = "http://localhost:8080";
+// const baseURL = "http://localhost:8080";
+const baseURL = "https://fullstack-delivery-backend.onrender.com";
 
 const Newproduct = () => {
   const [data,setData] = useState({

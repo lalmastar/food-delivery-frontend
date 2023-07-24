@@ -7,7 +7,8 @@ import {toast} from "react-hot-toast"
 import { useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { loginRedux } from "../redux/userSlice";
-const baseURL = "http://localhost:8080";
+// const baseURL = "http://localhost:8080";
+const baseURL = "https://fullstack-delivery-backend.onrender.com";
 
 const Login = () => {
     const [showPassword, setShowPassword] = useState(false);

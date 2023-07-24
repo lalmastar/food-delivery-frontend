@@ -6,7 +6,8 @@ import { toast } from "react-hot-toast";
 import {loadStripe} from '@stripe/stripe-js';
 import { useNavigate } from "react-router-dom";
 
-const baseURL = "http://localhost:8080";
+// const baseURL = "http://localhost:8080";
+const baseURL = "https://fullstack-delivery-backend.onrender.com";
 
 const Cart = () => {
   const productCartItem = useSelector((state) => state.product.cartItem);

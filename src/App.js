@@ -7,7 +7,8 @@ import { useEffect } from "react";
 import { setDataProduct } from "./redux/productSlide";
 import { useDispatch, useSelector } from "react-redux";
 import Footer from "./page/Footer";
-const baseURL = "http://localhost:8080";
+// const baseURL = "http://localhost:8080";
+const baseURL = "https://fullstack-delivery-backend.onrender.com";
 
 function App() {
   const dispatch = useDispatch()

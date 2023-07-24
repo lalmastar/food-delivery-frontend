@@ -5,7 +5,8 @@ import { Link, useNavigate } from "react-router-dom";
 import { BsEmojiSmileUpsideDown } from "react-icons/bs";
 import { ImagetoBase64 } from "../utility/ImagetoBase64";
 import { toast } from "react-hot-toast";
-const baseURL = "http://localhost:8080";
+// const baseURL = "http://localhost:8080";
+const baseURL = "https://fullstack-delivery-backend.onrender.com";
 
 function Signup() {
   const navigate = useNavigate();
